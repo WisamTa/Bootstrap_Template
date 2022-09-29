@@ -1,6 +1,11 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block content %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'contact/css/contact.css' %}" type="text/css">
+{% endblock %}
+
 <div class="container container-format">
     <div class="row information-format form-position">
         <div class="col-12 align-self-center">
