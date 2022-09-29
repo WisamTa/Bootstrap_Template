@@ -6,15 +6,28 @@
     width: 50%;
 }
 
+.inf-text {
+    color: rgba(255, 255, 255, 0.7)
+ 
+}
 
+.container-format {
+    margin-top: 3rem;
+}
+
+.information-format {
+    text-align: center;
+    margin-top: 3rem;
+}
 
 /* Contact Rules */
 
 .social-icons {
     text-decoration: none;
-    color: #323e48;
+    color: ##f6e1c5;
     font-size: 3rem;
     padding: 1rem;
+    
 }
 
 .social-icons:hover {
